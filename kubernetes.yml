@@ -31,7 +31,7 @@ spec:
   ports:
     - port: 8081
       targetPort: 8081
-      nodePort: 8081  
+      nodePort: 30081  
   selector:
     app: insurance-project
 
